@@ -7,8 +7,7 @@ function Ajax(type, url, data, success, failed){
     } else {
         xhr = new ActiveXObject('Microsoft.XMLHTTP')
     }
- 
-   ...(此处省略一系列的业务逻辑细节)
+
    
    var type = type.toUpperCase();
     
